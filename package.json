@@ -6,12 +6,11 @@
     "type": "module",
     "scripts": {
         "test": "npx eslint --fix && npx eslint",
-        "start": "npx live-server",
-        "prepare": "npx husky install"
+        "start": "npx live-server"
     },
     "lint-staged": {
         "*.{js, jsx,ts,tsx, html,css}": [
-            "eslint --quiet --fix"
+            "npx eslint --quiet --fix"
         ]
     },
     "repository": {
