@@ -1,0 +1,28 @@
+{
+    "name": "googlehomepageclone",
+    "version": "1.0.0",
+    "description": "A clone of Google Home Page",
+    "main": "index.js",
+    "type": "module",
+    "scripts": {
+        "test": "npx eslint --fix && npx eslint",
+        "start": "npx live-server"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/moe-dizzle/GoogleHomePageClone.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/moe-dizzle/GoogleHomePageClone/issues"
+    },
+    "homepage": "https://github.com/moe-dizzle/GoogleHomePageClone#readme",
+    "devDependencies": {
+        "@html-eslint/eslint-plugin": "^0.25.0",
+        "@html-eslint/parser": "^0.25.0",
+        "eslint": "^9.7.0",
+        "eslint-plugin-css": "^0.10.0",
+        "live-server": "^1.2.2"
+    }
+}
