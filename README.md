@@ -12,7 +12,7 @@ The command line will tell you the url for the project:
 
 
 #### What improvements would you make or best practices would you utilize if you had double the time?
- Currently, there's a bug where the search bar expands when overfilled with text, but it does not shrink back down when the text is deleted. I would like to fix this issue to make the resizing more dynamic. Additionally, I would like to improve the appearance of the 'I'm Feeling Lucky' button to make it look more like the original. Finally, I plan to add support for both Light and Dark modes.
+ Currently, there's a bug where the search bar expands when overfilled with text, but it does not shrink back down when the text is deleted. I would like to fix this issue to make the resizing more dynamic. Additionally, I would like to improve the appearance of the 'I'm Feeling Lucky' button to make it look more like the original. I also need to add back the tab outline for the "I'm Feeling Lucky" button for accessibility reason. I think I may have removed it on accident when I was playing around with the hover funtionality. Finally, I would have added support for both Light and Dark modes if i had more time.
 
 If the site required more interactivity and API calls, I would have used a framework like React. I would also have been more diligent in breaking the site into components.
 
