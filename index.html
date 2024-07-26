@@ -1,15 +1,16 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Google</title>
-        <link rel="icon" type="image/png" href="images/google-icon.png" />
         <link
-            rel="stylesheet"
-            href="node_modules/normalize.css/normalize.css"
-        />
-        <link rel="stylesheet" href="index.css" />
+            rel="icon"
+            type="image/png"
+            href="images/google-icon.png"
+        >
+        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
+        <link rel="stylesheet" href="index.css">
     </head>
     <body>
         <main class="main">
@@ -18,22 +19,20 @@
                 height="92"
                 src="images/google-logo.png"
                 width="272"
-            />
+            >
             <div class="search-container">
                 <div class="input-container">
                     <div class="magnify-glass-icon">
                         <div class="icon-container">
                             <span class="icon">
-                                <image
-                                    src="images/magnify-glass.svg"
-                                    alt="magnify glass"
-                                ></image>
+                                <image src="images/magnify-glass.svg" alt="magnify glass"></image>
                             </span>
                         </div>
                     </div>
 
                     <div class="search-bar">
                         <textarea
+                            id="search-textarea"
                             class="search-bar-input"
                             autofocus=""
                             title="Search"
@@ -56,22 +55,16 @@
 
                     <div class="search-buttons">
                         <a href="javascript:void(0)" class="voice-search">
-                            <image
-                                src="images/voice.svg"
-                                alt="Voice Search button"
-                            ></image>
+                            <image src="images/voice.svg" alt="Voice Search button"></image>
                         </a>
                         <a class="image-search" href="javascript:void(0)">
-                            <image
-                                src="images/image.svg"
-                                alt="Image search button"
-                            ></image>
+                            <image src="images/image.svg" alt="Image search button"></image>
                         </a>
                     </div>
                 </div>
                 <div class="input-buttons">
                     <button>Google Search</button>
-                    <button>I'm Feeling Lucky</button>
+                    <button id="luckyButton">I'm Feeling Lucky</button>
                 </div>
             </div>
         </main>
@@ -81,9 +74,8 @@
                     <div class="footer-item content1">
                         <a class="footer-link" href="javascript:void(0)">
                             Advertising</a>
-                            <a class="footer-link" href="javascript:void(0)"
-                            >Business</a>
-                            <a class="footer-link" href="javascript:void(0)">
+                        <a class="footer-link" href="javascript:void(0)">Business</a>
+                        <a class="footer-link" href="javascript:void(0)">
                             How Search works
                         </a>
                     </div>
@@ -91,17 +83,18 @@
                         <a class="footer-link" href="javascript:void(0)">
                             <image src="images/leaf.png"></image>
                             <span >Our third decade of climate action: join us</span>
-                            </a>
+                        </a>
                     </div>
                     <div class="footer-item content3">
                         <a class="footer-link" href="javascript:void(0)">Privacy</a>
-                            <a class="footer-link" href="javascript:void(0)">Terms</a>
-                            <a class="footer-link" href="javascript:void(0)">
+                        <a class="footer-link" href="javascript:void(0)">Terms</a>
+                        <a class="footer-link" href="javascript:void(0)">
                             Settings
                         </a>
                     </div>
                 </div>
             </div>
         </footer>
+        <script src="scripts.js"></script>
     </body>
 </html>

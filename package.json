@@ -28,6 +28,7 @@
         "@html-eslint/parser": "^0.25.0",
         "eslint": "^9.7.0",
         "eslint-plugin-css": "^0.10.0",
+        "globals": "^15.8.0",
         "husky": "^8.0.0",
         "lint-staged": "^15.2.7",
         "live-server": "^1.2.2",

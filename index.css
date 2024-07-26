@@ -141,12 +141,24 @@ body {
     user-select: none;
 }
 
+.main .search-container .input-buttons button#luckyButton {
+    transition: background-color 0.3s, transform 0.3s;
+    position: relative;
+    outline: none;
+
+}
+
 .main .search-container .input-buttons button:hover {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     background-color: #f8f9fa;
     border: 1px solid #dadce0;
     color: #202124;
 }
+.main .search-container .input-buttons button#luckyButton:hover {
+    transform: translateY(-2px);
+}
+
+
 .footer {
     height: var(--footer-height);
     display: flex;
