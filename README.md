@@ -6,6 +6,10 @@ Assumption that you have Node.js and npm installed
 $ npm install
 $ npm start
 ```
+The command line will tell you the url for the project: 
+
+![Screenshot 2024-07-26 001217](https://github.com/user-attachments/assets/7f87ed86-91a7-467f-812e-cd3b1a2fa220)
+
 
 #### What improvements would you make or best practices would you utilize if you had double the time?
  Currently, there's a bug where the search bar expands when overfilled with text, but it does not shrink back down when the text is deleted. I would like to fix this issue to make the resizing more dynamic. Additionally, I would like to improve the appearance of the 'I'm Feeling Lucky' button to make it look more like the original. Finally, I plan to add support for both Light and Dark modes.
