@@ -13,7 +13,7 @@ body {
 .main .search-container {
     width: 100%;
     max-width: 584px;
-    height: 20px;
+    height: max-content;
 }
 
 .main .search-container .input-container {
@@ -29,6 +29,7 @@ body {
     width: 638px;
     width: auto;
     max-width: 584px;
+    height: auto;
 }
 .main .search-container .input-container:hover {
     background: #fff;
@@ -36,13 +37,91 @@ body {
     border-color: transparent;
 }
 
-.main .search-container .search-buttons {
+.main .search-container .input-container .magnify-glass-icon {
+    display: flex;
+    align-items: center;
+    padding-right: 13px;
+    padding-left: 14px;
+    height: 46px;
+}
+
+.main .search-container .input-container .magnify-glass-icon .icon-container {
+    margin: auto;
+}
+.main
+    .search-container
+    .input-container
+    .magnify-glass-icon
+    .icon-container
+    .icon {
+    height: 20px;
+    line-height: 20px;
+    width: 20px;
+    margin-top: 3px;
+    color: #9aa0a6;
+    display: inline-block;
+    fill: currentColor;
+    position: relative;
+}
+
+.main .search-container .input-container .search-bar {
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    height: max-content;
+}
+
+.main .search-container .input-container .search-bar .search-bar-input {
+    height: max-content;
+    white-space: pre-line;
+    overflow-y: visible;
+    font-family: Roboto, Arial, sans-serif;
+    line-height: 22px;
+    border-bottom: 8px solid transparent;
+    padding-top: 11px;
+    overflow-x: hidden;
+    resize: none;
+    background-color: transparent;
+    border: none;
+    margin: 0;
+    margin-top: 10px;
+    padding: 0;
+    color: rgba(0, 0, 0, 0.87);
+    word-wrap: break-word;
+    outline: none;
+    display: flex;
+    -webkit-tap-highlight-color: transparent;
+    font-size: 16px;
+    flex: 100%;
+}
+
+.main .search-container .input-container .search-buttons {
+    display: flex;
+    flex: 0 0 auto;
+    align-items: stretch;
+    flex-direction: row;
+    height: 44px;
+}
+.main .search-container .input-container .search-buttons a {
+    flex: 1 0 auto;
+    display: flex;
+    cursor: pointer;
+    align-items: center;
+    border: 0;
+    background: transparent;
+    outline: none;
+    padding: 0 8px;
+    width: 24px;
+    line-height: 44px;
+}
+
+.main .search-container .input-buttons {
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.main .search-container .search-buttons button {
+.main .search-container .input-buttons button {
     background-color: #f8f9fa;
     border: 1px solid #f8f9fa;
     border-radius: 4px;
@@ -59,7 +138,7 @@ body {
     user-select: none;
 }
 
-.main .search-container .search-buttons button:hover {
+.main .search-container .input-buttons button:hover {
     box-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
     background-color: #f8f9fa;
     border: 1px solid #dadce0;

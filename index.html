@@ -1,16 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Google</title>
+        <link rel="icon" type="image/png" href="images/google-icon.png" />
         <link
-            rel="icon"
-            type="image/png"
-            href="images/google-icon.png"
-        >
-        <link rel="stylesheet" href="node_modules/normalize.css/normalize.css">
-        <link rel="stylesheet" href="index.css">
+            rel="stylesheet"
+            href="node_modules/normalize.css/normalize.css"
+        />
+        <link rel="stylesheet" href="index.css" />
     </head>
     <body>
         <main class="main">
@@ -19,10 +18,58 @@
                 height="92"
                 src="images/google-logo.png"
                 width="272"
-            >
+            />
             <div class="search-container">
-                <div class="input-container"></div>
-                <div class="search-buttons">
+                <div class="input-container">
+                    <div class="magnify-glass-icon">
+                        <div class="icon-container">
+                            <span class="icon">
+                                <image
+                                    src="images/magnify-glass.svg"
+                                    alt="magnify glass"
+                                ></image>
+                            </span>
+                        </div>
+                    </div>
+
+                    <div class="search-bar">
+                        <textarea
+                            class="search-bar-input"
+                            autofocus=""
+                            title="Search"
+                            value=""
+                            aria-label="Search"
+                            aria-autocomplete="both"
+                            aria-expanded="false"
+                            aria-haspopup="false"
+                            autocapitalize="off"
+                            autocomplete="off"
+                            autocorrect="off"
+                            maxlength="2048"
+                            name="q"
+                            role="combobox"
+                            rows="1"
+                            spellcheck="false"
+                            aria-activedescendant=""
+                        ></textarea>
+                    </div>
+
+                    <div class="search-buttons">
+                        <a href="javascript:void(0)" class="voice-search">
+                            <image
+                                src="images/voice.svg"
+                                alt="Voice Search button"
+                            ></image>
+                        </a>
+                        <a class="image-search" href="javascript:void(0)">
+                            <image
+                                src="images/image.svg"
+                                alt="Image search button"
+                            ></image>
+                        </a>
+                    </div>
+                </div>
+                <div class="input-buttons">
                     <button>Google Search</button>
                     <button>I'm Feeling Lucky</button>
                 </div>
