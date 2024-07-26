@@ -3,6 +3,9 @@
 }
 body {
     height: 100vh;
+    font-size: 14px;
+    font-family: Roboto, Arial, sans-serif;
+    color: #1f1f1f
 }
 
 .main {
@@ -17,6 +20,7 @@ body {
     width: 100%;
     max-width: 584px;
     height: max-content;
+    padding: 20px;
 }
 
 .main .search-container .input-container {
@@ -122,6 +126,7 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
+    padding-top: 18px;
 }
 
 .main .search-container .input-buttons button {
