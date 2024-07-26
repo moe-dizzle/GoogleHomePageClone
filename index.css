@@ -24,6 +24,7 @@ body {
 }
 
 .main .search-container .input-container {
+    padding-top: 5sdApx;
     display: flex;
     z-index: 3;
     position: relative;
@@ -36,7 +37,7 @@ body {
     width: 638px;
     width: auto;
     max-width: 584px;
-    height: auto;
+    
 }
 .main .search-container .input-container:hover {
     background: #fff;
@@ -81,7 +82,7 @@ body {
 .main .search-container .input-container .search-bar .search-bar-input {
     height: max-content;
     white-space: pre-line;
-    overflow-y: visible;
+    overflow-y: hidden;
     font-family: Roboto, Arial, sans-serif;
     line-height: 22px;
     border-bottom: 8px solid transparent;
