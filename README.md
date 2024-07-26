@@ -25,13 +25,16 @@ https://google-home-page-clone-git-main-mauricehaywards-projects.vercel.app/
 
 ## How the site looks on my machine
 #### desktop
-![Screenshot 2024-07-26 000025](https://github.com/user-attachments/assets/a6eb2197-6e46-443d-9e1b-2b1247d7f917) 
+
+![Screenshot 2024-07-26 115555](https://github.com/user-attachments/assets/d46ba09e-ef4e-4def-9418-930dbabf513c)
 
 #### labtop
-![Screenshot 2024-07-26 000046](https://github.com/user-attachments/assets/8022d3b2-9f43-44ad-91eb-4a270005860e)
+
+![Screenshot 2024-07-26 115610](https://github.com/user-attachments/assets/59cc39be-3cf7-4475-8250-006ebd6f77bb)
 
 #### small screen
-![Screenshot 2024-07-26 000107](https://github.com/user-attachments/assets/3e1a159e-b064-47ec-92f5-7b35da88a6a3)
+
+![Screenshot 2024-07-26 120126](https://github.com/user-attachments/assets/98c91b2a-e11a-475a-a26c-c980175ecf14)
 
 ## The Look I was targeting for 
 
